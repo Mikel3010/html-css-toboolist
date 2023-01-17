@@ -1,3 +1,4 @@
+/* inizio header */
 header{
     background-color: white;
 }
@@ -9,4 +10,31 @@ h1{
     display: inline-block;
     vertical-align: middle;
     font-family: 'Roboto', sans-serif;   
+}
+/* inizio bottoni e container */
+.container{
+    background-color: #F6F8F9;
+    padding: 30px 200px 10px;
+}
+.bottoni{
+    background-color: white;
+    border-bottom: 2px solid #F6F8F9;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.bottone-blu{
+    background-color:#47ADF1 ;
+    color: white;
+    border-color:#47ADF1 ;
+    border-radius: 10px;
+    
+}
+.bottone-bianco{
+    color: #C8CED3;
+    border-radius: 10px;
+    border-color: #C8CED3;
+    
 }
