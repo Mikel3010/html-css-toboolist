@@ -36,5 +36,24 @@ h1{
     color: #C8CED3;
     border-radius: 10px;
     border-color: #C8CED3;
-    
+
+}
+/* inizio prima sezione */
+section{
+    background-color: white;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+h2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+ul{
+margin: 0px;
+list-style-type: none;
+padding: 0px;
+}
+li{
+    padding-bottom: 20px;
 }
