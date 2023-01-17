@@ -58,3 +58,69 @@ li{
     padding-bottom: 20px;
 }
 /* inizio decorazione */
+.true::before{
+    content: "\2713";
+    border: 2px solid green;
+    border-radius: 50%;
+    color: green;
+}
+.false::before{
+    content: "\292B";
+    border: 2px solid red;
+    border-radius: 50%;
+    color: red;
+}
+.blu::after{
+    content: "Editorial";
+    background-color:#45ABEA ;
+    color: white;
+    border-radius: 10px;
+    margin-left: 3px;
+    padding: 5px;
+    font-size: small;
+}
+.viola::after{
+    content: "Q1 Goals";
+    background-color:#9C72E4 ;
+    color: white;
+    border-radius: 10px;
+    margin-left: 3px;
+    padding: 5px;
+    font-size: small;
+}
+.verdino::after{
+    content: "recruiting";
+    background-color: #65C1AA ;
+    color: white;
+    border-radius: 10px;
+    margin-left: 3px;
+    padding: 5px;
+    font-size: small;
+}
+.arancio::after{
+    content: "Mobile";
+    background-color:#F29E33 ;
+    color: white;
+    border-radius: 10px;
+    margin-left: 3px;
+    padding: 5px;
+    font-size: small;
+}
+.rosa::after{
+    content: "website";
+    background-color:#D863A1 ;
+    color: white;
+    border-radius: 10px;
+    margin-left: 3px;
+    padding: 5px;
+    font-size: small;
+}
+.verde::after{
+    content: "Sales";
+    background-color:#B0C926 ;
+    color: white;
+    border-radius: 10px;
+    margin-left: 3px;
+    padding: 5px;
+    font-size: small;
+}
